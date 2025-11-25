@@ -11,7 +11,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: #000
+        background: #000;
       }
       model-viewer {
         width: 100%;
@@ -21,15 +21,15 @@
   </head>
   <body>
     <model-viewer src="solar_system_animation.glb"
-              alt="Sistema Solar Animado"
-              auto-rotate
-              camera-controls
-              ar
-              ar-modes="scene-viewer quick-look webxr"
-              disable-default-environment
-              autoplay
-              animation-name=>
-
-</model-viewer>
+                  ios-src="solar_system_animation.usdz"
+                  alt="Sistema Solar Animado"
+                  auto-rotate
+                  camera-controls
+                  ar
+                  ar-modes="scene-viewer quick-look webxr"
+                  disable-default-environment
+                  autoplay
+                  animation-name="Animation">
+    </model-viewer>
   </body>
 </html>
