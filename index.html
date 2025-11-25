@@ -11,12 +11,11 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: transparent; /* Fondo transparente */
+        background: transparent;#000
       }
       model-viewer {
         width: 100%;
         height: 100%;
-        background-color: transparent; /* Transparencia en el visor */
       }
     </style>
   </head>
@@ -29,10 +28,14 @@
               camera-controls
               ar
               ar-modes="scene-viewer quick-look webxr"
-              disable-default-environment>
+              disable-default-environment
+              environment-image="neutral"
+              shadow-intensity="1"
+              exposure="1.2">
 </model-viewer>
   </body>
 </html>
+
 
 
 
